@@ -8,7 +8,11 @@ static void CreateAndRunHost(CommandLineOptions commandLineOptions)
 {
     var host = Host
         .CreateDefaultBuilder()
-        .UseSerilog((context, loggerConfiguration) => loggerConfiguration.ReadFrom.Configuration(context.Configuration))
+        .UseSerilog((context, loggerConfiguration) =>
+        {
+            loggerConfiguration.WriteTo.File("log-.txt", rollingInterval: RollingInterval.Day);
+            loggerConfiguration.MinimumLevel.Debug();
+        })
         .ConfigureServices((context, services) =>
         {
             var configuration = context.Configuration;
