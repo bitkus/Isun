@@ -1,0 +1,397 @@
+2022-07-07 22:28:57.149 +03:00 [DBG] Hosting starting
+2022-07-07 22:28:57.174 +03:00 [DBG] POST authorize.
+2022-07-07 22:28:57.528 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:28:57.531 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:28:57.531 +03:00 [DBG] GET cities
+2022-07-07 22:28:57.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-07 22:28:57.537 +03:00 [INF] Hosting environment: Development
+2022-07-07 22:28:57.537 +03:00 [INF] Content root path: C:\Users\linas\source\repos\isun\ConsoleApp
+2022-07-07 22:28:57.537 +03:00 [DBG] Hosting started
+2022-07-07 22:28:57.600 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:28:57.673 +03:00 [DBG] Adding item id "df246c05-e97d-48dd-8745-c036eda452ee" to WeatherForecastRepository
+2022-07-07 22:28:57.674 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:28:57.733 +03:00 [DBG] Adding item id "a5674147-5cd2-47bf-8e7f-83afc32cdfef" to WeatherForecastRepository
+2022-07-07 22:28:57.733 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:28:57.796 +03:00 [DBG] Adding item id "fd996a77-e1f6-4b33-88a1-dc91bd2e6396" to WeatherForecastRepository
+2022-07-07 22:28:57.796 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:28:57.860 +03:00 [DBG] Adding item id "77282085-da36-431e-935c-6e4725cb0212" to WeatherForecastRepository
+2022-07-07 22:29:12.871 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:29:12.871 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:29:12.953 +03:00 [DBG] Adding item id "d2402477-25fd-4354-9bb8-49c5eb5e44dd" to WeatherForecastRepository
+2022-07-07 22:29:12.954 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:29:13.026 +03:00 [DBG] Adding item id "774babad-0ef1-4146-84b0-8fe643466aab" to WeatherForecastRepository
+2022-07-07 22:29:13.026 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:29:13.086 +03:00 [DBG] Adding item id "4656f9b1-e2f3-408a-ab2c-66151a825394" to WeatherForecastRepository
+2022-07-07 22:29:13.086 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:29:13.156 +03:00 [DBG] Adding item id "3185c3b2-452c-4054-bee3-a30cf03e4994" to WeatherForecastRepository
+2022-07-07 22:29:28.164 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:29:28.164 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:29:28.229 +03:00 [DBG] Adding item id "cc5ff896-8db7-4b61-a99e-ccdc72578d14" to WeatherForecastRepository
+2022-07-07 22:29:28.229 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:29:28.285 +03:00 [DBG] Adding item id "679045a4-9e34-4886-89bb-d971fe4b9fd4" to WeatherForecastRepository
+2022-07-07 22:29:28.286 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:29:28.344 +03:00 [DBG] Adding item id "72a92f74-9c9d-4bcc-aeae-44b584b1bb51" to WeatherForecastRepository
+2022-07-07 22:29:28.345 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:29:28.406 +03:00 [DBG] Adding item id "a9178875-a8e6-41f5-bf45-5bf356ad7ac7" to WeatherForecastRepository
+2022-07-07 22:29:43.430 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:29:43.430 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:29:43.430 +03:00 [DBG] GET cities
+2022-07-07 22:29:43.494 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:29:43.555 +03:00 [DBG] Adding item id "bd0f5896-66f5-4f38-b640-e961c7742fdd" to WeatherForecastRepository
+2022-07-07 22:29:43.555 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:29:43.613 +03:00 [DBG] Adding item id "e0c1650b-1787-4de0-a973-f9075fef6a17" to WeatherForecastRepository
+2022-07-07 22:29:43.613 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:29:43.673 +03:00 [DBG] Adding item id "e9439fb9-d001-4c37-9481-00ba9a5c6c60" to WeatherForecastRepository
+2022-07-07 22:29:43.673 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:29:43.724 +03:00 [DBG] Adding item id "c26a62f1-7959-4ac7-bf75-f4f04fce7af5" to WeatherForecastRepository
+2022-07-07 22:29:58.733 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:29:58.733 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:29:58.803 +03:00 [DBG] Adding item id "7a635fda-209e-4be4-bbd9-b968a666994c" to WeatherForecastRepository
+2022-07-07 22:29:58.804 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:29:58.868 +03:00 [DBG] Adding item id "7fa476b2-64b6-4d31-a625-f7f6c2563247" to WeatherForecastRepository
+2022-07-07 22:29:58.868 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:29:58.924 +03:00 [DBG] Adding item id "b0ecb9f2-ae90-4195-8d3f-7041fb718598" to WeatherForecastRepository
+2022-07-07 22:29:58.924 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:29:58.982 +03:00 [DBG] Adding item id "111426b8-2200-4e76-a3cf-0a8256003a8b" to WeatherForecastRepository
+2022-07-07 22:30:14.001 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:30:14.001 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:30:14.061 +03:00 [DBG] Adding item id "a45fa4f2-62a2-4844-9c22-ddfe19c158cf" to WeatherForecastRepository
+2022-07-07 22:30:14.062 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:30:14.139 +03:00 [DBG] Adding item id "eb545275-4737-4383-9058-780736f9ed36" to WeatherForecastRepository
+2022-07-07 22:30:14.139 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:30:14.196 +03:00 [DBG] Adding item id "8bf3cf45-3a43-496c-8b13-34b7db282c07" to WeatherForecastRepository
+2022-07-07 22:30:14.196 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:30:14.251 +03:00 [DBG] Adding item id "40ec138a-e3aa-4025-95b1-9b1e2c6972dd" to WeatherForecastRepository
+2022-07-07 22:30:29.262 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:30:29.262 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:30:29.262 +03:00 [DBG] GET cities
+2022-07-07 22:30:29.334 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:30:29.407 +03:00 [DBG] Adding item id "f49614d7-d553-4146-841a-c47b3a801442" to WeatherForecastRepository
+2022-07-07 22:30:29.407 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:30:29.469 +03:00 [DBG] Adding item id "8ba79f6e-de78-482a-8f4f-3e19cb4704ae" to WeatherForecastRepository
+2022-07-07 22:30:29.469 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:30:29.525 +03:00 [DBG] Adding item id "f9958efb-c6d7-4982-a956-ea818cf5c61a" to WeatherForecastRepository
+2022-07-07 22:30:29.525 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:30:29.577 +03:00 [DBG] Adding item id "609dc8ac-4c17-458e-b68d-3576fdf0c429" to WeatherForecastRepository
+2022-07-07 22:30:44.595 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:30:44.595 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:30:44.650 +03:00 [DBG] Adding item id "70e8d345-f75d-48ab-845a-064c1b502367" to WeatherForecastRepository
+2022-07-07 22:30:44.650 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:30:44.721 +03:00 [DBG] Adding item id "4e9fcba2-3bf9-48cb-b2b9-399aa29f2d73" to WeatherForecastRepository
+2022-07-07 22:30:44.722 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:30:44.780 +03:00 [DBG] Adding item id "456829b3-9256-4dd3-9b48-0ba0b47b026e" to WeatherForecastRepository
+2022-07-07 22:30:44.780 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:30:44.845 +03:00 [DBG] Adding item id "22d3de81-d189-4795-be5b-184d2d65fe81" to WeatherForecastRepository
+2022-07-07 22:30:59.857 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:30:59.857 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:30:59.924 +03:00 [DBG] Adding item id "3c22573e-bafa-4d1c-91f2-ed757ae8a2f5" to WeatherForecastRepository
+2022-07-07 22:30:59.925 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:30:59.983 +03:00 [DBG] Adding item id "678b95a0-c7e5-4cc6-8efd-fa64ff635cab" to WeatherForecastRepository
+2022-07-07 22:30:59.983 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:31:00.052 +03:00 [DBG] Adding item id "d3794be1-8da0-4203-ac30-df6116f9d39c" to WeatherForecastRepository
+2022-07-07 22:31:00.052 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:31:00.154 +03:00 [DBG] Adding item id "03bf341e-33ce-42bc-83e0-83ac8958d3cf" to WeatherForecastRepository
+2022-07-07 22:31:15.167 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:31:15.167 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:31:15.167 +03:00 [DBG] GET cities
+2022-07-07 22:31:15.256 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:31:15.313 +03:00 [DBG] Adding item id "2907cbf2-5187-416a-8ddf-15f76be3f7b9" to WeatherForecastRepository
+2022-07-07 22:31:15.313 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:31:15.374 +03:00 [DBG] Adding item id "6f413d4f-c58b-4a5b-975c-dae5e52cba7f" to WeatherForecastRepository
+2022-07-07 22:31:15.374 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:31:15.444 +03:00 [DBG] Adding item id "76b52560-3193-4fd3-a15a-be34a572ace6" to WeatherForecastRepository
+2022-07-07 22:31:15.444 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:31:15.557 +03:00 [DBG] Adding item id "285e9a4e-4738-4e6c-9db4-19ec50e0905d" to WeatherForecastRepository
+2022-07-07 22:31:30.565 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:31:30.565 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:31:30.691 +03:00 [DBG] Adding item id "1498ede8-5dda-4430-a745-372607c06a7b" to WeatherForecastRepository
+2022-07-07 22:31:30.691 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:31:30.761 +03:00 [DBG] Adding item id "cff781aa-d0f1-443c-abba-884179b0fdeb" to WeatherForecastRepository
+2022-07-07 22:31:30.761 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:31:30.841 +03:00 [DBG] Adding item id "6c2425ec-cde7-4c33-b7aa-b7ef4f3b0da0" to WeatherForecastRepository
+2022-07-07 22:31:30.841 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:31:30.916 +03:00 [DBG] Adding item id "cf0b9966-bd1c-4151-a54d-3ad0d2196c44" to WeatherForecastRepository
+2022-07-07 22:31:45.927 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:31:45.927 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:31:45.991 +03:00 [DBG] Adding item id "2f7f3d05-ec7b-42e0-965f-bb97dc4c5a6f" to WeatherForecastRepository
+2022-07-07 22:31:45.991 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:31:46.054 +03:00 [DBG] Adding item id "9ef20b79-cf8d-4290-bb9b-df3df393d218" to WeatherForecastRepository
+2022-07-07 22:31:46.054 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:31:46.121 +03:00 [DBG] Adding item id "6a4a7f8f-846f-4551-83f2-d5d7810f3570" to WeatherForecastRepository
+2022-07-07 22:31:46.121 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:31:46.203 +03:00 [DBG] Adding item id "42404f85-1c83-4fe5-9147-72cd1d51441a" to WeatherForecastRepository
+2022-07-07 22:32:01.216 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:32:01.216 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:32:01.216 +03:00 [DBG] GET cities
+2022-07-07 22:32:01.312 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:32:01.374 +03:00 [DBG] Adding item id "0bdb2e88-c951-4fc5-beee-3b73dd92ed81" to WeatherForecastRepository
+2022-07-07 22:32:01.374 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:32:01.522 +03:00 [DBG] Adding item id "64257021-12ff-4d1f-81b9-a31416e24d01" to WeatherForecastRepository
+2022-07-07 22:32:01.522 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:32:01.595 +03:00 [DBG] Adding item id "c1dfdad7-af2f-488c-8bec-1312752b19bb" to WeatherForecastRepository
+2022-07-07 22:32:01.595 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:32:01.648 +03:00 [DBG] Adding item id "50e3db74-8074-40d9-aa27-21b58d36dda2" to WeatherForecastRepository
+2022-07-07 22:32:16.662 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:32:16.662 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:32:16.728 +03:00 [DBG] Adding item id "7449f0a4-292a-4e98-a8da-530ef1d98b66" to WeatherForecastRepository
+2022-07-07 22:32:16.728 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:32:16.786 +03:00 [DBG] Adding item id "ee50a1c4-1ecc-4779-8d4e-8a03071ad6c8" to WeatherForecastRepository
+2022-07-07 22:32:16.786 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:32:16.851 +03:00 [DBG] Adding item id "65c5e855-7aad-41cd-8807-bb8f39e5c4e7" to WeatherForecastRepository
+2022-07-07 22:32:16.851 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:32:16.911 +03:00 [DBG] Adding item id "a43422e1-5818-4b4f-bda2-305287259136" to WeatherForecastRepository
+2022-07-07 22:32:31.926 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:32:31.926 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:32:32.037 +03:00 [DBG] Adding item id "2a402020-b8ce-4952-aac8-46f1cd2ee0d0" to WeatherForecastRepository
+2022-07-07 22:32:32.037 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:32:32.134 +03:00 [DBG] Adding item id "4a0a77c6-8c65-4185-a2fb-4e002b61af9f" to WeatherForecastRepository
+2022-07-07 22:32:32.135 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:32:32.190 +03:00 [DBG] Adding item id "4f09e998-ab7a-498a-9ede-aade5518bc59" to WeatherForecastRepository
+2022-07-07 22:32:32.190 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:32:32.251 +03:00 [DBG] Adding item id "a220fff6-d623-462b-b15b-f12160bf5d97" to WeatherForecastRepository
+2022-07-07 22:32:47.263 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:32:47.263 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:32:47.263 +03:00 [DBG] GET cities
+2022-07-07 22:32:47.342 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:32:47.412 +03:00 [DBG] Adding item id "679018be-5b5b-4fed-9aaa-ff08f3858230" to WeatherForecastRepository
+2022-07-07 22:32:47.412 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:32:47.479 +03:00 [DBG] Adding item id "60310fb1-b651-473b-a1ec-c49cbbe45465" to WeatherForecastRepository
+2022-07-07 22:32:47.479 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:32:47.554 +03:00 [DBG] Adding item id "8f9f04db-0782-49d6-9a8e-f0361f385a49" to WeatherForecastRepository
+2022-07-07 22:32:47.554 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:32:47.620 +03:00 [DBG] Adding item id "785ab85d-e26f-4a70-a211-ab493711b3ef" to WeatherForecastRepository
+2022-07-07 22:33:02.623 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:33:02.623 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:33:02.732 +03:00 [DBG] Adding item id "1a8e077b-4fac-4744-be3e-5c8d674d96f4" to WeatherForecastRepository
+2022-07-07 22:33:02.732 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:33:02.804 +03:00 [DBG] Adding item id "6aba4d6f-98e6-4e95-8482-15faa2d2c50d" to WeatherForecastRepository
+2022-07-07 22:33:02.804 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:33:02.894 +03:00 [DBG] Adding item id "7b4464e4-56e6-4311-85c7-74a2444b195c" to WeatherForecastRepository
+2022-07-07 22:33:02.894 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:33:02.962 +03:00 [DBG] Adding item id "db1d6e81-0485-493a-806e-43a9c6ce2538" to WeatherForecastRepository
+2022-07-07 22:33:17.975 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:33:17.975 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:33:18.037 +03:00 [DBG] Adding item id "defaa751-2349-49a6-825c-9c49c02953a1" to WeatherForecastRepository
+2022-07-07 22:33:18.037 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:33:18.128 +03:00 [DBG] Adding item id "7cae8d9e-014f-417b-9e85-624433670445" to WeatherForecastRepository
+2022-07-07 22:33:18.129 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:33:18.208 +03:00 [DBG] Adding item id "4b77f703-8c6d-4caf-8518-dd66d994ca71" to WeatherForecastRepository
+2022-07-07 22:33:18.208 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:33:18.278 +03:00 [DBG] Adding item id "5fdb2984-77af-4f72-b82b-5b7d520a5d36" to WeatherForecastRepository
+2022-07-07 22:33:33.290 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:33:33.290 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:33:33.290 +03:00 [DBG] GET cities
+2022-07-07 22:33:33.367 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:33:33.431 +03:00 [DBG] Adding item id "a2296a3b-8ece-401e-929d-751dd456adf0" to WeatherForecastRepository
+2022-07-07 22:33:33.431 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:33:33.492 +03:00 [DBG] Adding item id "783ef803-8000-45a2-81e3-1e0d5714dd56" to WeatherForecastRepository
+2022-07-07 22:33:33.492 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:33:33.628 +03:00 [DBG] Adding item id "25651ce2-64ce-4faf-9efd-db0df4fe8f5c" to WeatherForecastRepository
+2022-07-07 22:33:33.628 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:33:33.687 +03:00 [DBG] Adding item id "4f92dd8e-a0b4-41cf-a60c-efe8deeb3cc7" to WeatherForecastRepository
+2022-07-07 22:33:48.691 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:33:48.691 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:33:48.751 +03:00 [DBG] Adding item id "62625997-c656-45f0-b85c-f96422548a4d" to WeatherForecastRepository
+2022-07-07 22:33:48.751 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:33:48.806 +03:00 [DBG] Adding item id "c35fba8f-5f80-4960-b1ed-887c1c6d2ca4" to WeatherForecastRepository
+2022-07-07 22:33:48.806 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:33:48.865 +03:00 [DBG] Adding item id "8eacfb32-df72-4e6c-b84d-07edc70fcfa3" to WeatherForecastRepository
+2022-07-07 22:33:48.865 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:33:48.945 +03:00 [DBG] Adding item id "9ad14a4b-5f6a-44c6-949b-05a6708711f9" to WeatherForecastRepository
+2022-07-07 22:34:03.960 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:34:03.960 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:34:04.037 +03:00 [DBG] Adding item id "b499fc3e-6d98-41a4-8d18-94039f01a8cf" to WeatherForecastRepository
+2022-07-07 22:34:04.037 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:34:04.092 +03:00 [DBG] Adding item id "555760bd-48cb-48aa-8ce6-4ed8d5061ed9" to WeatherForecastRepository
+2022-07-07 22:34:04.092 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:34:04.174 +03:00 [DBG] Adding item id "7106463f-06bf-440c-abd0-3365511a0092" to WeatherForecastRepository
+2022-07-07 22:34:04.174 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:34:04.239 +03:00 [DBG] Adding item id "25fb4a03-1416-4d94-adf7-614fb6867213" to WeatherForecastRepository
+2022-07-07 22:34:19.253 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:34:19.254 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:34:19.254 +03:00 [DBG] GET cities
+2022-07-07 22:34:19.319 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:34:19.389 +03:00 [DBG] Adding item id "fd987f6b-df4a-40ed-85cd-397b34034472" to WeatherForecastRepository
+2022-07-07 22:34:19.389 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:34:19.461 +03:00 [DBG] Adding item id "ef734cb1-1d48-4ec5-b2d9-8ddc1b33d1ea" to WeatherForecastRepository
+2022-07-07 22:34:19.461 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:34:19.523 +03:00 [DBG] Adding item id "794a102f-97d2-43db-a5c2-c6d69ff5d626" to WeatherForecastRepository
+2022-07-07 22:34:19.523 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:34:19.579 +03:00 [DBG] Adding item id "f73133c2-05c8-45cb-bda1-1ca107c261f5" to WeatherForecastRepository
+2022-07-07 22:34:30.309 +03:00 [INF] Application is shutting down...
+2022-07-07 22:34:30.310 +03:00 [DBG] Hosting stopping
+2022-07-07 22:34:30.312 +03:00 [DBG] Hosting stopped
+2022-07-07 22:34:40.059 +03:00 [DBG] Hosting starting
+2022-07-07 22:34:40.079 +03:00 [DBG] POST authorize.
+2022-07-07 22:34:40.386 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:34:40.388 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:34:40.389 +03:00 [DBG] GET cities
+2022-07-07 22:34:40.395 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-07 22:34:40.395 +03:00 [INF] Hosting environment: Development
+2022-07-07 22:34:40.395 +03:00 [INF] Content root path: C:\Users\linas\source\repos\isun\ConsoleApp
+2022-07-07 22:34:40.395 +03:00 [DBG] Hosting started
+2022-07-07 22:34:40.461 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:34:40.529 +03:00 [DBG] Adding item id "26c34aa7-5c6a-421e-aad4-a133bf2f9250" to WeatherForecastRepository
+2022-07-07 22:34:40.531 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:34:40.587 +03:00 [DBG] Adding item id "b1eafbf9-7cbc-41e4-bdc2-ed3df1b52b34" to WeatherForecastRepository
+2022-07-07 22:34:40.587 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:34:40.644 +03:00 [DBG] Adding item id "b2dfee5d-09a7-4baf-b286-46966640f987" to WeatherForecastRepository
+2022-07-07 22:34:40.644 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:34:40.708 +03:00 [DBG] Adding item id "df7e6608-fd4d-4191-ae6d-628cf1ddf090" to WeatherForecastRepository
+2022-07-07 22:34:55.408 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:34:55.408 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:34:55.475 +03:00 [DBG] Adding item id "6a0bbc8c-47cb-4907-a010-e88e87162cf3" to WeatherForecastRepository
+2022-07-07 22:34:55.475 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:34:55.536 +03:00 [DBG] Adding item id "85c31969-935f-40cc-ae73-eeb182eab79f" to WeatherForecastRepository
+2022-07-07 22:34:55.536 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:34:55.590 +03:00 [DBG] Adding item id "0f5126bb-de1e-4223-8ef4-025a4d5acbff" to WeatherForecastRepository
+2022-07-07 22:34:55.590 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:34:55.646 +03:00 [DBG] Adding item id "15938d0e-df40-4d16-bc49-f797e21a5bfc" to WeatherForecastRepository
+2022-07-07 22:35:10.426 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:35:10.426 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:35:10.508 +03:00 [DBG] Adding item id "f8bfc0d0-18dc-4985-b3e4-5950bbb18798" to WeatherForecastRepository
+2022-07-07 22:35:10.508 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:35:10.561 +03:00 [DBG] Adding item id "0e27bdcc-250c-4def-aeb2-1f4781a56459" to WeatherForecastRepository
+2022-07-07 22:35:10.562 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:35:10.616 +03:00 [DBG] Adding item id "20a92dfe-703e-400c-b464-4231a8cfa3fa" to WeatherForecastRepository
+2022-07-07 22:35:10.616 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:35:10.683 +03:00 [DBG] Adding item id "f3f621f7-663e-4db2-b428-007f47a14f94" to WeatherForecastRepository
+2022-07-07 22:35:25.448 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:35:25.448 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:35:25.448 +03:00 [DBG] GET cities
+2022-07-07 22:35:25.505 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:35:25.562 +03:00 [DBG] Adding item id "391409ab-7864-42a5-8681-f2e78277eafb" to WeatherForecastRepository
+2022-07-07 22:35:25.563 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:35:25.618 +03:00 [DBG] Adding item id "8e607752-1312-48da-87bc-61109cd67f2f" to WeatherForecastRepository
+2022-07-07 22:35:25.619 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:35:25.684 +03:00 [DBG] Adding item id "71e3402b-0ee6-4954-b192-4616632dbdd4" to WeatherForecastRepository
+2022-07-07 22:35:25.684 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:35:25.741 +03:00 [DBG] Adding item id "6d4dec70-8ec1-4840-8541-849df75b7c96" to WeatherForecastRepository
+2022-07-07 22:35:40.462 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:35:40.463 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:35:40.557 +03:00 [DBG] Adding item id "e361cb31-8f4c-4a41-879f-b86f86960382" to WeatherForecastRepository
+2022-07-07 22:35:40.557 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:35:40.625 +03:00 [DBG] Adding item id "2b2644a7-3b7c-4804-b670-95f128f8788d" to WeatherForecastRepository
+2022-07-07 22:35:40.625 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:35:40.680 +03:00 [DBG] Adding item id "f21070bc-e846-4372-8450-578510b80813" to WeatherForecastRepository
+2022-07-07 22:35:40.680 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:35:40.735 +03:00 [DBG] Adding item id "ee64b0dd-0184-444b-b751-572a23bb8b5d" to WeatherForecastRepository
+2022-07-07 22:35:55.473 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:35:55.473 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:35:55.529 +03:00 [DBG] Adding item id "e983003e-5199-4405-a897-4a90613dd7f2" to WeatherForecastRepository
+2022-07-07 22:35:55.529 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:35:55.586 +03:00 [DBG] Adding item id "8fcf8e04-dfec-4082-a7fc-12da101d6eca" to WeatherForecastRepository
+2022-07-07 22:35:55.586 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:35:55.647 +03:00 [DBG] Adding item id "53d931c2-9a2c-43bd-a05c-566a7019f113" to WeatherForecastRepository
+2022-07-07 22:35:55.647 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:35:55.712 +03:00 [DBG] Adding item id "184a4a31-d3a0-4de9-ac49-481e98715dbd" to WeatherForecastRepository
+2022-07-07 22:36:10.485 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:36:10.486 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:36:10.486 +03:00 [DBG] GET cities
+2022-07-07 22:36:10.621 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:36:10.688 +03:00 [DBG] Adding item id "5f92cbd4-1d6b-45b2-b47d-d54a54710d21" to WeatherForecastRepository
+2022-07-07 22:36:10.688 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:36:10.753 +03:00 [DBG] Adding item id "f5fe8bdc-98bd-42e1-9bff-fd63ddbb0a6a" to WeatherForecastRepository
+2022-07-07 22:36:10.753 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:36:10.813 +03:00 [DBG] Adding item id "1e45780c-e909-4a4d-9624-14d381d5cde6" to WeatherForecastRepository
+2022-07-07 22:36:10.813 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:36:10.875 +03:00 [DBG] Adding item id "a2561e12-2009-46b3-9c0f-9651598cdabf" to WeatherForecastRepository
+2022-07-07 22:36:25.490 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:36:25.490 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:36:25.577 +03:00 [DBG] Adding item id "085877b9-426a-41ee-b28c-eb68684f7175" to WeatherForecastRepository
+2022-07-07 22:36:25.577 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:36:25.652 +03:00 [DBG] Adding item id "6e9b2ba0-8ffd-4711-b76a-da1b95015c60" to WeatherForecastRepository
+2022-07-07 22:36:25.652 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:36:25.703 +03:00 [DBG] Adding item id "7b0607eb-6f87-4831-9fbc-8fb78b85b246" to WeatherForecastRepository
+2022-07-07 22:36:25.703 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:36:25.792 +03:00 [DBG] Adding item id "09e6285b-278d-4738-9c4f-33501621ebfa" to WeatherForecastRepository
+2022-07-07 22:36:40.499 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:36:40.499 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:36:40.656 +03:00 [DBG] Adding item id "9056d682-848c-43f3-956c-d7835ebc4b38" to WeatherForecastRepository
+2022-07-07 22:36:40.656 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:36:40.729 +03:00 [DBG] Adding item id "498a13d1-9530-4285-a791-0f6591c2003a" to WeatherForecastRepository
+2022-07-07 22:36:40.729 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:36:40.792 +03:00 [DBG] Adding item id "c8f265a7-a442-4897-95b9-56ea4ea597ef" to WeatherForecastRepository
+2022-07-07 22:36:40.792 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:36:40.854 +03:00 [DBG] Adding item id "61ea364f-39d2-4fb7-8c3c-ae34dee3d2ec" to WeatherForecastRepository
+2022-07-07 22:36:55.500 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:36:55.500 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:36:55.500 +03:00 [DBG] GET cities
+2022-07-07 22:36:55.555 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:36:55.612 +03:00 [DBG] Adding item id "3fdfe281-d7f2-464f-81ae-d11c5b81a535" to WeatherForecastRepository
+2022-07-07 22:36:55.612 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:36:55.671 +03:00 [DBG] Adding item id "18c7d738-07f5-4382-bee1-f0f62b727661" to WeatherForecastRepository
+2022-07-07 22:36:55.671 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:36:55.723 +03:00 [DBG] Adding item id "33adf3ae-2cb6-4fb6-a191-a1403fef0f1f" to WeatherForecastRepository
+2022-07-07 22:36:55.724 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:36:55.786 +03:00 [DBG] Adding item id "d00e6545-9755-47ba-9b7c-536797e22e77" to WeatherForecastRepository
+2022-07-07 22:37:10.508 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:37:10.509 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:37:10.616 +03:00 [DBG] Adding item id "e40eda7f-5840-4a1e-aaaa-249a47f5c36e" to WeatherForecastRepository
+2022-07-07 22:37:10.616 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:37:10.687 +03:00 [DBG] Adding item id "5b75c798-9c4b-4406-9e9d-faa77cb31e7b" to WeatherForecastRepository
+2022-07-07 22:37:10.687 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:37:10.742 +03:00 [DBG] Adding item id "63c002ac-a227-4a2f-b42f-ac704b68d4b8" to WeatherForecastRepository
+2022-07-07 22:37:10.742 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:37:10.802 +03:00 [DBG] Adding item id "c34cfced-cf63-45ea-be3b-82fd54cef5d6" to WeatherForecastRepository
+2022-07-07 22:37:25.512 +03:00 [INF] Fetching weather for cities.
+2022-07-07 22:37:25.512 +03:00 [DBG] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:37:25.582 +03:00 [DBG] Adding item id "6dc154c2-1bd8-436d-8ad7-53811695b145" to WeatherForecastRepository
+2022-07-07 22:37:25.582 +03:00 [DBG] GET weathers for City { Name = Riga }.
+2022-07-07 22:37:25.641 +03:00 [DBG] Adding item id "bb224fd5-c840-4146-88d2-f878ca0b0022" to WeatherForecastRepository
+2022-07-07 22:37:25.641 +03:00 [DBG] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:37:25.696 +03:00 [DBG] Adding item id "e6d4bf0a-01c5-451e-8291-1671d6c6facc" to WeatherForecastRepository
+2022-07-07 22:37:25.696 +03:00 [DBG] GET weathers for City { Name = Oslo }.
+2022-07-07 22:37:25.757 +03:00 [DBG] Adding item id "27fa804b-8060-49d1-b44b-95a0fb666cd7" to WeatherForecastRepository
+2022-07-07 22:37:27.095 +03:00 [INF] Application is shutting down...
+2022-07-07 22:37:27.096 +03:00 [DBG] Hosting stopping
+2022-07-07 22:37:27.098 +03:00 [DBG] Hosting stopped
+2022-07-07 22:46:43.722 +03:00 [DBG] Hosting starting
+2022-07-07 22:46:43.741 +03:00 [INF] POST authorize.
+2022-07-07 22:46:44.163 +03:00 [INF] Starting console weather app...
+2022-07-07 22:46:44.164 +03:00 [INF] Fetching new weather.
+2022-07-07 22:46:44.165 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:46:44.166 +03:00 [INF] GET cities
+2022-07-07 22:46:44.171 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-07 22:46:44.171 +03:00 [INF] Hosting environment: Development
+2022-07-07 22:46:44.171 +03:00 [INF] Content root path: C:\Users\linas\source\repos\isun\ConsoleApp
+2022-07-07 22:46:44.171 +03:00 [DBG] Hosting started
+2022-07-07 22:46:44.227 +03:00 [INF] GET weathers for City { Name = Vilnius }.
+2022-07-07 22:46:44.289 +03:00 [INF] Adding item id "0da60eff-5f8e-433e-9abb-e145d4d7b650" to WeatherForecastRepository
+2022-07-07 22:46:44.290 +03:00 [INF] GET weathers for City { Name = Riga }.
+2022-07-07 22:46:44.350 +03:00 [INF] Adding item id "c528b550-9c65-43eb-bedf-f3ae540d023b" to WeatherForecastRepository
+2022-07-07 22:46:44.350 +03:00 [INF] GET weathers for City { Name = Tallinn }.
+2022-07-07 22:46:44.404 +03:00 [INF] Adding item id "84eab92c-450d-4654-b3b9-6dbac47818b5" to WeatherForecastRepository
+2022-07-07 22:46:44.404 +03:00 [INF] GET weathers for City { Name = Oslo }.
+2022-07-07 22:46:44.454 +03:00 [INF] Adding item id "d95f30f7-9102-45e5-aabf-a3b69572bdb9" to WeatherForecastRepository
+2022-07-07 22:46:45.911 +03:00 [INF] Application is shutting down...
+2022-07-07 22:46:45.911 +03:00 [DBG] Hosting stopping
+2022-07-07 22:46:45.913 +03:00 [DBG] Hosting stopped
+2022-07-07 22:48:22.458 +03:00 [DBG] Hosting starting
+2022-07-07 22:48:22.482 +03:00 [INF] POST authorize.
+2022-07-07 22:48:22.772 +03:00 [INF] Starting console weather app...
+2022-07-07 22:48:22.773 +03:00 [INF] Fetching new weather.
+2022-07-07 22:48:22.774 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:48:22.775 +03:00 [INF] GET cities
+2022-07-07 22:48:22.780 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-07 22:48:22.780 +03:00 [INF] Hosting environment: Development
+2022-07-07 22:48:22.780 +03:00 [INF] Content root path: C:\Users\linas\source\repos\isun\ConsoleApp
+2022-07-07 22:48:22.780 +03:00 [DBG] Hosting started
+2022-07-07 22:48:25.845 +03:00 [INF] Application is shutting down...
+2022-07-07 22:48:25.846 +03:00 [DBG] Hosting stopping
+2022-07-07 22:48:25.848 +03:00 [DBG] Hosting stopped
+2022-07-07 22:48:31.927 +03:00 [DBG] Hosting starting
+2022-07-07 22:48:31.946 +03:00 [INF] POST authorize.
+2022-07-07 22:48:32.295 +03:00 [INF] Starting console weather app...
+2022-07-07 22:48:32.296 +03:00 [INF] Fetching new weather.
+2022-07-07 22:48:32.297 +03:00 [INF] Refreshing available city cache.
+2022-07-07 22:48:32.298 +03:00 [INF] GET cities
+2022-07-07 22:48:32.303 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-07 22:48:32.303 +03:00 [INF] Hosting environment: Development
+2022-07-07 22:48:32.303 +03:00 [INF] Content root path: C:\Users\linas\source\repos\isun\ConsoleApp
+2022-07-07 22:48:32.303 +03:00 [DBG] Hosting started
+2022-07-07 22:48:32.371 +03:00 [INF] GET weathers for City { Name = Riga }.
+2022-07-07 22:48:32.434 +03:00 [INF] Adding item id "f2e552e8-695a-4586-b3a6-c19dbf260147" to WeatherForecastRepository
+2022-07-07 22:48:34.299 +03:00 [INF] Application is shutting down...
+2022-07-07 22:48:34.299 +03:00 [DBG] Hosting stopping
+2022-07-07 22:48:34.301 +03:00 [DBG] Hosting stopped
