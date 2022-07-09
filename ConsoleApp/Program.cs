@@ -3,11 +3,18 @@ using CommandLine;
 using Isun;
 using Serilog;
 using ConsoleApp;
+using System.Reflection;
+using Microsoft.Extensions.FileProviders;
 
 static void CreateAndRunHost(CommandLineOptions commandLineOptions)
 {
     var host = Host
         .CreateDefaultBuilder()
+        .ConfigureAppConfiguration(configurationBuilder =>
+        {
+            var assembly = typeof(Program).GetTypeInfo().Assembly;
+            configurationBuilder.AddJsonFile(new EmbeddedFileProvider(assembly), "appsettings.json", optional: false, false);
+        })
         .UseSerilog((context, loggerConfiguration) =>
         {
             loggerConfiguration.WriteTo.File("log-.txt", rollingInterval: RollingInterval.Day);
@@ -31,4 +38,16 @@ static void CreateAndRunHost(CommandLineOptions commandLineOptions)
 Parser
     .Default
     .ParseArguments<CommandLineOptions>(args)
-    .WithParsed(CreateAndRunHost);
+    .WithParsed(options =>
+    {
+        Normalize(options);
+        CreateAndRunHost(options);
+    });
+
+void Normalize(CommandLineOptions options)
+{
+    options.Cities = options?.Cities?
+        .Where(city => !string.IsNullOrEmpty(city))
+        .Select(city => city
+            .Trim(',', ' '));
+}
