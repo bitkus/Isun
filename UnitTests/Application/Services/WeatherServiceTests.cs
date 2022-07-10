@@ -144,7 +144,7 @@ public class WeatherServiceTests
     }
 
     [Theory, AutoMoqData]
-    public async Task FetchWeather_Should_ReturnGivenCityAndApiCityIntersection_When_CacheIsEmpty(
+    public async Task FetchWeather_Should_ReturnGivenCityAndApiCityIntersectionRegardlessOfCasing_When_CacheIsEmpty(
         [Frozen] Mock<IWeatherApiClient> weatherApiClientMock,
         [Frozen] IMemoryCache _,
         [Frozen] Mock<IRepository<WeatherForecast>> weatherForecastRepositorMock,
@@ -166,7 +166,12 @@ public class WeatherServiceTests
         weatherApiClientMock.Setup(m => m
             .GetAvailableCities())
             .ReturnsAsync(availableCities);
-        var requestedCities = new HashSet<City>(availableCities.Concat(otherCities));
+        var requestedCities = new HashSet<City>();
+        foreach (var city in availableCities.Concat(otherCities))
+        {
+            requestedCities.Add(city with { Name = city.Name.ToLowerInvariant() });
+        }    
+
         applicationOptions = applicationOptions with { AvailableCityCacheTTLSeconds = availableCityCacheTTLSeconds };
         applicationOptionsProvider.SetupGet(a => a.Value).Returns(applicationOptions);
 

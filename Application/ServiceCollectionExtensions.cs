@@ -10,7 +10,7 @@ namespace Application;
 
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection AddWeatherApplication(this IServiceCollection services, IConfiguration configuration, IEnumerable<string> cities)
+    public static IServiceCollection AddWeatherApplication(this IServiceCollection services, IConfiguration configuration, HashSet<string> cities)
     {
         return services
             .AddInfrastructure(configuration)

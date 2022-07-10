@@ -1,4 +1,4 @@
-﻿namespace Isun;
+﻿namespace ConsoleApp;
 
 public record ConsoleAppOptions
 {

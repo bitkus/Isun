@@ -2,7 +2,7 @@ using Application.Services;
 using Contracts;
 using Microsoft.Extensions.Options;
 
-namespace Isun;
+namespace ConsoleApp;
 
 public class Worker : BackgroundService
 {

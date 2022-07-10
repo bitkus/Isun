@@ -1,12 +1,11 @@
 using Application;
-using CommandLine;
-using Isun;
-using Serilog;
 using ConsoleApp;
+using Serilog;
 using System.Reflection;
 using Microsoft.Extensions.FileProviders;
+using ConsoleApp.CliParser;
 
-static void CreateAndRunHost(CommandLineOptions commandLineOptions)
+static void CreateAndRunHost(HashSet<string> arguments)
 {
     var host = Host
         .CreateDefaultBuilder()
@@ -26,7 +25,7 @@ static void CreateAndRunHost(CommandLineOptions commandLineOptions)
             services
                 .AddLogging(builder => builder.AddSerilog())
                 .Configure<ConsoleAppOptions>(configuration.GetSection(nameof(ConsoleAppOptions)))
-                .AddWeatherApplication(configuration, commandLineOptions.Cities!)
+                .AddWeatherApplication(configuration, arguments)
                 .AddTransient<IWriter, ConsoleWriter>()
                 .AddHostedService<Worker>();
         })
@@ -35,19 +34,11 @@ static void CreateAndRunHost(CommandLineOptions commandLineOptions)
     host.Run();
 }
 
-Parser
-    .Default
-    .ParseArguments<CommandLineOptions>(args)
-    .WithParsed(options =>
-    {
-        Normalize(options);
-        CreateAndRunHost(options);
-    });
-
-void Normalize(CommandLineOptions options)
+var parsingResult = Parser.Parse(Environment.CommandLine);
+if (!parsingResult.IsSuccess)
 {
-    options.Cities = options?.Cities?
-        .Where(city => !string.IsNullOrEmpty(city))
-        .Select(city => city
-            .Trim(',', ' '));
+    Console.WriteLine(parsingResult.Error);
+    return;
 }
+
+CreateAndRunHost(parsingResult.Arguments);
